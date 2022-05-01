@@ -1,8 +1,8 @@
 #include <SPI.h>
 #include <Ethernet.h>
 
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress ip(192, 168, 1, 177);
+byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0x01 };
+IPAddress ip(192, 168, 8, 21);
 EthernetServer server(80);
 
 void setup()
